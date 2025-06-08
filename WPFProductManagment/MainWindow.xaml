@@ -12,7 +12,7 @@
             <ColumnDefinition Width="*" />
 
         </Grid.ColumnDefinitions>
-        <Border Grid.Column="0" Margin="2" Background="WhiteSmoke" Width="250" HorizontalAlignment="Center"
+        <Border Grid.Column="0" Margin="2" Background="#ffcee4" Width="250" HorizontalAlignment="Center"
                 BorderThickness="2" BorderBrush="Black">
             <StackPanel>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnHome">Home</Button>
@@ -26,8 +26,11 @@
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnProducts">
                     Products
                 </Button>
-                <Image Margin="10,60" Height="100" Width="150" Source="/Resourcies/Screenshot 2025-06-08 125713.png" ></Image>
+                <Image Margin="10,60" Height="100" Width="150" Source="Resourcies/Screenshot 2025-06-08 125713.png" ></Image>
             </StackPanel>
+        </Border>
+        <Border Grid.Column="1" Margin="2" Background="WhiteSmoke" Name="Home" HorizontalAlignment="Stretch"
+                BorderThickness="2" BorderBrush="Black">
         </Border>
     </Grid>
 </Window>
