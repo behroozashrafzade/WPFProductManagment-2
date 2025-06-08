@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\programing development\\1404\\vs\\ProductManagment-2\\ProductManagment\\WPFProductManagment\\WPFProductManagment.csproj": {}
+    "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\WPFProductManagment.csproj": {}
   },
   "projects": {
-    "H:\\programing development\\1404\\vs\\ProductManagment-2\\ProductManagment\\WPFProductManagment\\WPFProductManagment.csproj": {
+    "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\WPFProductManagment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\programing development\\1404\\vs\\ProductManagment-2\\ProductManagment\\WPFProductManagment\\WPFProductManagment.csproj",
+        "projectUniqueName": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\WPFProductManagment.csproj",
         "projectName": "WPFProductManagment",
-        "projectPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\ProductManagment\\WPFProductManagment\\WPFProductManagment.csproj",
+        "projectPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\WPFProductManagment.csproj",
         "packagesPath": "C:\\Users\\behzad\\.nuget\\packages\\",
-        "outputPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\ProductManagment\\WPFProductManagment\\obj\\",
+        "outputPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
