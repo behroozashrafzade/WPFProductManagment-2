@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resourcies\Screenshot 2025-06-08 125713.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resourcies\Screenshot 2025-06-08 125713.png" />
+  </ItemGroup>
+
 </Project>
