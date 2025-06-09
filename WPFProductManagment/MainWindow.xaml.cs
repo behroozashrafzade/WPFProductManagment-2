@@ -20,5 +20,10 @@ namespace WPFProductManagment
         {
             InitializeComponent();
         }
+
+        private void BtnHome_OnClick(object sender, RoutedEventArgs e)
+        {
+           
+        }
     }
 }

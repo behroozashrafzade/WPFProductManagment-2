@@ -15,7 +15,7 @@
         <Border Grid.Column="0" Margin="2" Background="#fbd4e6" Width="250" HorizontalAlignment="Center"
                 BorderThickness="2" BorderBrush="Black">
             <StackPanel>
-                <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnHome">Home</Button>
+                <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnHome" Click="BtnHome_OnClick">Home</Button>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22"
                         Name="BtnEmployees">
                     Employees
