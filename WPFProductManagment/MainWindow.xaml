@@ -17,7 +17,7 @@
             <StackPanel>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnHome" Click="BtnHome_OnClick">Home</Button>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22"
-                        Name="BtnEmployees">
+                        Name="BtnEmployees" Click="BtnEmployees_OnClick">
                     Employees
                 </Button>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnCustomers">

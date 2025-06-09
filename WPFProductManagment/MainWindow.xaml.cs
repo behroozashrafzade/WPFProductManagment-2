@@ -25,5 +25,10 @@ namespace WPFProductManagment
         {
            
         }
+
+        private void BtnEmployees_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
