@@ -23,7 +23,10 @@ namespace WPFProductManagment
 
         private void BtnHome_OnClick(object sender, RoutedEventArgs e)
         {
-           
+            HomePanel.Visibility = Visibility.Visible;
+            EmployeesPanel.Visibility= Visibility.Collapsed;
+            CustomersPanel.Visibility = Visibility.Collapsed;
+            ProductsPanel.Visibility= Visibility.Collapsed;
         }
 
         private void BtnEmployees_OnClick(object sender, RoutedEventArgs e)
