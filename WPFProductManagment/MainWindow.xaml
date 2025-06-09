@@ -20,7 +20,7 @@
                         Name="BtnEmployees" Click="BtnEmployees_OnClick">
                     Employees
                 </Button>
-                <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnCustomers">
+                <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnCustomers" Click="BtnCustomers_OnClick">
                     Customers
                 </Button>
                 <Button Margin="20,30" Background="#3E454C" Height="50" Foreground="White" FontSize="22" Name="BtnProducts">

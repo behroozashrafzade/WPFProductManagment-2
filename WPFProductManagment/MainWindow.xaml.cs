@@ -30,5 +30,10 @@ namespace WPFProductManagment
         {
             throw new NotImplementedException();
         }
+
+        private void BtnCustomers_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
