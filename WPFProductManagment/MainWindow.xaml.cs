@@ -31,17 +31,26 @@ namespace WPFProductManagment
 
         private void BtnEmployees_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            HomePanel.Visibility = Visibility.Collapsed;
+            EmployeesPanel.Visibility = Visibility.Visible;
+            CustomersPanel.Visibility = Visibility.Collapsed;
+            ProductsPanel.Visibility = Visibility.Collapsed;
         }
 
         private void BtnCustomers_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            HomePanel.Visibility = Visibility.Collapsed;
+            EmployeesPanel.Visibility = Visibility.Collapsed;
+            CustomersPanel.Visibility = Visibility.Visible;
+            ProductsPanel.Visibility = Visibility.Collapsed;
         }
 
         private void BtnProducts_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            HomePanel.Visibility = Visibility.Collapsed;
+            EmployeesPanel.Visibility = Visibility.Collapsed;
+            CustomersPanel.Visibility = Visibility.Collapsed;
+            ProductsPanel.Visibility = Visibility.Visible;
         }
     }
 }
