@@ -37,5 +37,8 @@
             
         </StackPanel>
         </Border>
+        <Border Grid.Column="1" Margin="2" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
+
+        </Border>
     </Grid>
 </Window>
