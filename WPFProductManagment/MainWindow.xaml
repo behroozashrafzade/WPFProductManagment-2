@@ -38,13 +38,13 @@
         </StackPanel>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
-            <Label FontSize="48"  HorizontalAlignment="Center">Welcome to Page Employees</Label>
+            <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman">Welcome to Page Employees</Label>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="CustomersPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
-            <Label FontSize="48"  HorizontalAlignment="Center">Welcome to Page Customers</Label>
+            <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman" >Welcome to Page Customers</Label>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="ProductsPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
-            <Label FontSize="48"  HorizontalAlignment="Center">Welcome to Page Products</Label>
+            <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman" >Welcome to Page Products</Label>
         </Border>
 
     </Grid>
