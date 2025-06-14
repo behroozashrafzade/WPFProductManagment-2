@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\models\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\productdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\productdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeeDataAccess.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\EmployeeDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\EmployeeDataAccess.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\EmployeeDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\Models\\EmployeeDataAccess.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:35:57.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductDataAccess.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\ProductDataAccess.cs",
               "RelativeDocumentMoniker": "DataAccess\\ProductDataAccess.cs",
               "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\ProductDataAccess.cs",
               "RelativeToolTip": "DataAccess\\ProductDataAccess.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T11:58:48.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Customer.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Customer.cs",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "DataAccess\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T14:44:52.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T14:44:52.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Employee.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Product.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IProduct.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\IProduct.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\IProduct.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IPerson.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\Models\\IPerson.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\IPerson.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml",
@@ -135,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml.cs",
