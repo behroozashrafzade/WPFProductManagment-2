@@ -21,7 +21,7 @@ namespace DataAccess
             Product pr1 = new Product()
             {
                 Id = 1,
-                Name = "bahrouz ashrafzade",
+                Name = "laptop",
                 Author = "parviz ashrafzade",
                 AvailableCount = 12,
                 Price = 17
@@ -29,7 +29,7 @@ namespace DataAccess
             Product pr2 = new Product()
             {
                 Id = 2,
-                Name = "davood ashrafzade",
+                Name = "xbox",
                 Author = "parviz ashrafzade",
                 AvailableCount = 5,
                 Price = 34
