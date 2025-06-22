@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFProductManagment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f15dceed029c2abf933d3c5f2ba9faad9357d24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc788445b9d99cd8df38f3b47412fc9800f42a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFProductManagment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFProductManagment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

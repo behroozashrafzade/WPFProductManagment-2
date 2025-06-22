@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resourcies\Screenshot 2025-06-08 125713.png" />
   </ItemGroup>
 
