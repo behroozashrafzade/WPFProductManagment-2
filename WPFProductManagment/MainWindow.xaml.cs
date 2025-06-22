@@ -18,6 +18,20 @@ namespace WPFProductManagment
     /// </summary>
     public partial class MainWindow : Window
     {
+         EmployeeDataAccess employeeDataAccess = new EmployeeDataAccess();
+        CustomerDataAccess customerDataAccess = new CustomerDataAccess();
+        ProductDataAccess productDataAccess = new ProductDataAccess();
+
+        List<Employee> employees = new List<Employee>();
+        List<Customer> Customers= new List<Customer>();
+        List<Product> Products = new List<Product>();
+
+        public Employee CurrentEmployee { get; set; }
+
+        public Customer CurrentCustomer { get; set; }
+
+        public Product CurrentProduct { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
