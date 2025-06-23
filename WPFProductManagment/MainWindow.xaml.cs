@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,7 +24,7 @@ namespace WPFProductManagment
         CustomerDataAccess customerDataAccess = new CustomerDataAccess();
         ProductDataAccess productDataAccess = new ProductDataAccess();
 
-        List<Employee> employees = new List<Employee>();
+        ObservableCollection<Employee> employees = new ObservableCollection<Employee>();
         List<Customer> customers= new List<Customer>();
         List<Product> Products = new List<Product>();
 
@@ -37,6 +39,8 @@ namespace WPFProductManagment
             InitializeComponent();
 
             fillData();
+
+            EmployeesGrid.ItemsSource = employees;
         }
 
         private void fillData()
@@ -76,6 +80,11 @@ namespace WPFProductManagment
             EmployeesPanel.Visibility = Visibility.Collapsed;
             CustomersPanel.Visibility = Visibility.Collapsed;
             ProductsPanel.Visibility = Visibility.Visible;
+        }
+
+        private void EmployeesGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

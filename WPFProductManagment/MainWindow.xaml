@@ -37,8 +37,12 @@
             
         </StackPanel>
         </Border>
-        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
-            <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman">Welcome to Page Employees</Label>
+        <Border Grid.Column="1" Margin="2" Visibility="Visible" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
+            <StackPanel HorizontalAlignment="Stretch" Background="DarkSalmon" Margin="15">
+                <DataGrid Margin="5" Name="EmployeesGrid" ColumnWidth="*" CanUserAddRows="False" MinColumnWidth="100" CanUserResizeColumns="True" SelectionChanged="EmployeesGrid_OnSelectionChanged">
+
+                </DataGrid>
+            </StackPanel>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="CustomersPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
             <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman" >Welcome to Page Customers</Label>
