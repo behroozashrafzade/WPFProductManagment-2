@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\productdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\productdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\customerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\customerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductDataAccess.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\ProductDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ProductDataAccess.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\ProductDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\ProductDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:26:22.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerDataAccess.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\CustomerDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\CustomerDataAccess.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\CustomerDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\CustomerDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:25:22.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeDataAccess.cs",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\EmployeeDataAccess.cs",
               "RelativeDocumentMoniker": "DataAccess\\EmployeeDataAccess.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml",
@@ -60,7 +94,7 @@
               "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml.cs",
               "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPFProductManagment\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T10:56:09.118Z",
               "EditorCaption": ""

@@ -25,8 +25,8 @@ namespace WPFProductManagment
         ProductDataAccess productDataAccess = new ProductDataAccess();
 
         ObservableCollection<Employee> employees = new ObservableCollection<Employee>();
-        List<Customer> customers= new List<Customer>();
-        List<Product> Products = new List<Product>();
+        ObservableCollection<Customer> customers= new ObservableCollection<Customer>();
+        ObservableCollection<Product> Products = new ObservableCollection<Product>();
 
         public Employee CurrentEmployee { get; set; }= new Employee();
 
