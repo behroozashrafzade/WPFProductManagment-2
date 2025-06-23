@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace DataAccess
     public class EmployeeDataAccess
     {
 
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public ObservableCollection<Employee> Employees { get; set; } = new ObservableCollection<Employee>();
 
         public EmployeeDataAccess()
         {
