@@ -84,6 +84,21 @@ namespace WPFProductManagment
 
         private void EmployeesGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            //throw new NotImplementedException();
+        }
+
+        private void BtnAddEmployee_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnDeleteEmployee_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnEditEmployee_OnClick(object sender, RoutedEventArgs e)
+        {
             throw new NotImplementedException();
         }
     }

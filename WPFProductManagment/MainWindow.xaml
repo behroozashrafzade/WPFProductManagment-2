@@ -37,11 +37,28 @@
             
         </StackPanel>
         </Border>
-        <Border Grid.Column="1" Margin="2" Visibility="Visible" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
+        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="EmployeesPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
             <StackPanel HorizontalAlignment="Stretch" Background="DarkSalmon" Margin="15">
                 <DataGrid Margin="5" Name="EmployeesGrid" ColumnWidth="*" CanUserAddRows="False" MinColumnWidth="100" CanUserResizeColumns="True" SelectionChanged="EmployeesGrid_OnSelectionChanged">
 
                 </DataGrid>
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                <WrapPanel Margin="5" Grid.Row="0">
+                        <Label Margin="2" FontWeight="Bold">Detailed Info:</Label>
+                        <Label Margin="2" Content="---" Name="Employeelabel"></Label>
+
+                </WrapPanel>
+                    <DockPanel HorizontalAlignment="Center" Margin="20" Grid.Row="1">
+                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddEmployee" Click="BtnAddEmployee_OnClick">Add Employee</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="Salmon" Name="btnDeleteEmployee" Click="BtnDeleteEmployee_OnClick">Delete</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="WhiteSmoke" Name="btnEditEmployee" Click="BtnEditEmployee_OnClick">Edit</Button>
+                    </DockPanel>
+
+            </Grid>
             </StackPanel>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="CustomersPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">

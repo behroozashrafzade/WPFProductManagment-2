@@ -19,3 +19,7 @@ H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Deb
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProductManagment.pdb
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProductManagment.genruntimeconfig.cache
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\ref\WPFProductManagment.dll
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Debug\net8.0-windows\DataAccess.dll
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Debug\net8.0-windows\DataAccess.pdb
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProductManagment.csproj.AssemblyReference.cache
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProdu.B8EAA23C.Up2Date
