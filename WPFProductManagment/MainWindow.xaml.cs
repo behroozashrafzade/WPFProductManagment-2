@@ -84,7 +84,11 @@ namespace WPFProductManagment
 
         private void EmployeesGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //throw new NotImplementedException();
+            if(EmployeesGrid.SelectedIndex>=0)
+            {
+                CurrentEmployee = EmployeesGrid.SelectedItem as Employee;
+                Employeelabel.Content = CurrentEmployee.GetBasicInfo();
+            }
         }
 
         private void BtnAddEmployee_OnClick(object sender, RoutedEventArgs e)
