@@ -23,18 +23,27 @@ namespace WPFProductManagment
         ProductDataAccess productDataAccess = new ProductDataAccess();
 
         List<Employee> employees = new List<Employee>();
-        List<Customer> Customers= new List<Customer>();
+        List<Customer> customers= new List<Customer>();
         List<Product> Products = new List<Product>();
 
-        public Employee CurrentEmployee { get; set; }
+        public Employee CurrentEmployee { get; set; }= new Employee();
 
-        public Customer CurrentCustomer { get; set; }
+        public Customer CurrentCustomer { get; set; }=new Customer();
 
-        public Product CurrentProduct { get; set; }
+        public Product CurrentProduct { get; set; } = new Product();
 
         public MainWindow()
         {
             InitializeComponent();
+
+            fillData();
+        }
+
+        private void fillData()
+        {
+            employees = employeeDataAccess.Employees;
+           customers=customerDataAccess.Customers;
+           Products=productDataAccess.Products;
         }
 
         private void BtnHome_OnClick(object sender, RoutedEventArgs e)
