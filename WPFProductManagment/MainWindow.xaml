@@ -29,7 +29,7 @@
                 <Image Margin="10,60" Height="100" Width="150" Source="Resourcies/Screenshot 2025-06-08 125713.png" ></Image>
             </StackPanel>
         </Border>
-        <Border Grid.Column="1" Margin="2" Visibility="Visible" Background="WhiteSmoke" Name="HomePanel" HorizontalAlignment="Stretch"
+        <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="HomePanel" HorizontalAlignment="Stretch"
                 BorderThickness="2" BorderBrush="Black">
 
             <StackPanel HorizontalAlignment="Stretch" Background="#fbd4e6">
@@ -62,7 +62,28 @@
             </StackPanel>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="CustomersPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
-            <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman" >Welcome to Page Customers</Label>
+            <StackPanel HorizontalAlignment="Stretch" Background="DarkSalmon" Margin="15">
+                <DataGrid Margin="5" Name="CustomersGrid" ColumnWidth="*" CanUserAddRows="False" MinColumnWidth="100" CanUserResizeColumns="True" SelectionChanged="CustomersGrid_OnSelectionChanged">
+
+                </DataGrid>
+                <Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <WrapPanel Margin="5" Grid.Row="0">
+                        <Label Margin="2" FontWeight="Bold">Detailed Info:</Label>
+                        <Label Margin="2" Content="---" Name="Customerlabel"></Label>
+
+                    </WrapPanel>
+                    <DockPanel HorizontalAlignment="Center" Margin="20" Grid.Row="1">
+                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddCustomer" Click="BtnAddCustomer_OnClick">Add Employee</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="Salmon" Name="btnDeleteCustomer" Click="BtnDeleteCustomer_OnClick">Delete</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="WhiteSmoke" Name="btnEditCustomer" Click="BtnEditCustomer_OnClick">Edit</Button>
+                    </DockPanel>
+
+                </Grid>
+            </StackPanel>
         </Border>
         <Border Grid.Column="1" Margin="2" Visibility="Collapsed" Background="WhiteSmoke" Name="ProductsPanel" HorizontalAlignment="Stretch" BorderThickness="2" BorderBrush="Black">
             <Label FontSize="48"  HorizontalAlignment="Center" FontFamily="Times New Roman" >Welcome to Page Products</Label>
