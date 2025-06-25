@@ -41,6 +41,8 @@ namespace WPFProductManagment
             fillData();
 
             EmployeesGrid.ItemsSource = employees;
+            CustomersGrid.ItemsSource=customers;
+            ProductsGrid.ItemsSource=Products;
         }
 
         private void fillData()
@@ -108,7 +110,11 @@ namespace WPFProductManagment
 
         private void CustomersGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (CustomersGrid.SelectedIndex >= 0)
+            {
+                CurrentCustomer = CustomersGrid.SelectedItem as Customer;
+                Customerlabel.Content = CurrentCustomer.GetBasicInfo();
+            }
         }
 
         private void BtnAddCustomer_OnClick(object sender, RoutedEventArgs e)
@@ -128,7 +134,11 @@ namespace WPFProductManagment
 
         private void ProductsGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (ProductsGrid.SelectedIndex >= 0)
+            {
+                CurrentProduct = ProductsGrid.SelectedItem as Product;
+                Productslabel.Content = CurrentProduct.GetBasicInfo();
+            }
         }
 
         private void BtnAddProducts_OnClick(object sender, RoutedEventArgs e)

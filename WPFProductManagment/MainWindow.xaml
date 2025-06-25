@@ -77,7 +77,7 @@
 
                     </WrapPanel>
                     <DockPanel HorizontalAlignment="Center" Margin="20" Grid.Row="1">
-                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddCustomer" Click="BtnAddCustomer_OnClick">Add Employee</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddCustomer" Click="BtnAddCustomer_OnClick">Add Customer</Button>
                         <Button Margin="10" Height="50" Width="150" Background="Salmon" Name="btnDeleteCustomer" Click="BtnDeleteCustomer_OnClick">Delete</Button>
                         <Button Margin="10" Height="50" Width="150" Background="WhiteSmoke" Name="btnEditCustomer" Click="BtnEditCustomer_OnClick">Edit</Button>
                     </DockPanel>
@@ -101,7 +101,7 @@
 
                     </WrapPanel>
                     <DockPanel HorizontalAlignment="Center" Margin="20" Grid.Row="1">
-                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddProducts" Click="BtnAddProducts_OnClick">Add Employee</Button>
+                        <Button Margin="10" Height="50" Width="150" Background="LightGreen" Name="btnAddProducts" Click="BtnAddProducts_OnClick">Add Products</Button>
                         <Button Margin="10" Height="50" Width="150" Background="Salmon" Name="btnDeleteProducts" Click="BtnDeleteProducts_OnClick">Delete</Button>
                         <Button Margin="10" Height="50" Width="150" Background="WhiteSmoke" Name="btnEditProducts" Click="BtnEditProducts_OnClick">Edit</Button>
                     </DockPanel>
