@@ -46,6 +46,7 @@ namespace WPFProductManagment
                 Department =(Department) comboDepartment.SelectedIndex
             };
             employeeDataAccess.AddEmployee(emp);
+            this.Close();
         }
     }
 }

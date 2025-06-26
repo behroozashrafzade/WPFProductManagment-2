@@ -23,3 +23,5 @@ H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Deb
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Debug\net8.0-windows\DataAccess.pdb
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProductManagment.csproj.AssemblyReference.cache
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\WPFProdu.B8EAA23C.Up2Date
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\AddEditEmployee.g.cs
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\AddEditEmployee.baml

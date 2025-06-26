@@ -95,7 +95,8 @@ namespace WPFProductManagment
 
         private void BtnAddEmployee_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            AddEditEmployee addWindow = new AddEditEmployee(employeeDataAccess);
+            addWindow.ShowDialog();
         }
 
         private void BtnDeleteEmployee_OnClick(object sender, RoutedEventArgs e)
