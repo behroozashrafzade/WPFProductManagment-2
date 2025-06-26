@@ -114,7 +114,13 @@ namespace WPFProductManagment
 
         private void BtnEditEmployee_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (EmployeesGrid.SelectedIndex >= 0)
+            {
+                CurrentEmployee = EmployeesGrid.SelectedItem as Employee;
+                AddEditEmployee addWindow = new AddEditEmployee(employeeDataAccess,CurrentEmployee);
+                addWindow.ShowDialog();
+
+            }
         }
 
         private void CustomersGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -123,6 +129,7 @@ namespace WPFProductManagment
             {
                 CurrentCustomer = CustomersGrid.SelectedItem as Customer;
                 Customerlabel.Content = CurrentCustomer.GetBasicInfo();
+
             }
         }
 

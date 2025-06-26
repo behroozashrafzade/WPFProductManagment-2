@@ -22,10 +22,25 @@ namespace WPFProductManagment
     public partial class AddEditEmployee : Window
     {
         private EmployeeDataAccess employeeDataAccess;
+        private Employee editingEmployee;
+        private bool isEdit =false;
         public AddEditEmployee(EmployeeDataAccess empDataAccess)
         {
             InitializeComponent();
             employeeDataAccess = empDataAccess;
+        }
+        public AddEditEmployee(EmployeeDataAccess empDataAccess,Employee emp)
+        {
+            InitializeComponent();
+            employeeDataAccess = empDataAccess;
+            editingEmployee = emp;
+            isEdit=true;
+            tbFirstName.Text = editingEmployee.FirstName;
+            tbLastName.Text = editingEmployee.LastName;
+            tbPhoneNumber.Text = editingEmployee.PhoneNumber.ToString();
+            tbSalary.Text = editingEmployee.BaseSalary.ToString();
+            comboDepartment.SelectedIndex=(int)editingEmployee.Department;
+
         }
 
         private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
@@ -35,17 +50,35 @@ namespace WPFProductManagment
 
         private void BtnOk_OnClick(object sender, RoutedEventArgs e)
         {
-            Employee emp = new Employee()
+            if (isEdit)
             {
-                Id = employeeDataAccess.getNextId(),
-                FirstName = tbFirstName.Text,
-                LastName = tbLastName.Text,
-                Address = tbAddress.Text,
-                PhoneNumber =Convert.ToUInt64(tbPhoneNumber.Text),
-                BaseSalary = Convert.ToDecimal(tbSalary.Text),
-                Department =(Department) comboDepartment.SelectedIndex
-            };
-            employeeDataAccess.AddEmployee(emp);
+                Employee emp = new Employee()
+                {
+                    Id = editingEmployee.Id,
+                    FirstName = tbFirstName.Text,
+                    LastName = tbLastName.Text,
+                    Address = tbAddress.Text,
+                    PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text),
+                    BaseSalary = Convert.ToDecimal(tbSalary.Text),
+                    Department = (Department)comboDepartment.SelectedIndex
+                };
+                employeeDataAccess.EditEmployee(emp);
+            }
+            else
+            {
+                Employee emp = new Employee()
+                {
+                    Id = employeeDataAccess.getNextId(),
+                    FirstName = tbFirstName.Text,
+                    LastName = tbLastName.Text,
+                    Address = tbAddress.Text,
+                    PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text),
+                    BaseSalary = Convert.ToDecimal(tbSalary.Text),
+                    Department = (Department)comboDepartment.SelectedIndex
+                };
+                employeeDataAccess.AddEmployee(emp);
+            }
+            
             this.Close();
         }
     }
