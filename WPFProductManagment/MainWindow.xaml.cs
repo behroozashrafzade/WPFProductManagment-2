@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -101,7 +102,14 @@ namespace WPFProductManagment
 
         private void BtnDeleteEmployee_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (EmployeesGrid.SelectedIndex >= 0)
+            {
+                CurrentEmployee = EmployeesGrid.SelectedItem as Employee;
+                employeeDataAccess.RemoveEmployee(CurrentEmployee.Id);
+                Employeelabel.Content = "---";
+
+            }
+
         }
 
         private void BtnEditEmployee_OnClick(object sender, RoutedEventArgs e)
