@@ -25,9 +25,22 @@ namespace WPFProductManagment
         private Customer editingCustomer;
         private bool isEdit = false;
 
-        public AddEditCustomer()
+        public AddEditCustomer(CustomerDataAccess prdDataAccess)
         {
             InitializeComponent();
+            CustomerrDataAccess = prdDataAccess;
+        }
+
+        public AddEditCustomer(CustomerDataAccess prdDataAccess, Customer emp)
+        {
+            InitializeComponent();
+            CustomerrDataAccess = prdDataAccess;
+            editingCustomer = emp;
+            isEdit = true;
+            tbFirstName.Text = editingCustomer.FirstName;
+            tbLastName.Text = editingCustomer.LastName;
+            tbPhoneNumber.Text = editingCustomer.PhoneNumber.ToString();
+            tbAddress.Text= editingCustomer.Address;
         }
 
         private void BtnCancel_OnClick(object sender, RoutedEventArgs e)
@@ -48,7 +61,7 @@ namespace WPFProductManagment
                     PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text)
                     
                 };
-                CustomerrDataAccess.AddCustomer(emp);
+                CustomerrDataAccess.EditCustomer(emp);
             }
             else
             {

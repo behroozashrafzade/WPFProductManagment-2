@@ -135,17 +135,30 @@ namespace WPFProductManagment
 
         private void BtnAddCustomer_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            AddEditCustomer addWindow = new AddEditCustomer(customerDataAccess);
+            addWindow.ShowDialog();
         }
 
         private void BtnDeleteCustomer_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (CustomersGrid.SelectedIndex >= 0)
+            {
+                CurrentCustomer = CustomersGrid.SelectedItem as Customer;
+                customerDataAccess.RemoveCustomer(CurrentCustomer.Id);
+                Customerlabel.Content = "---";
+
+            }
         }
 
         private void BtnEditCustomer_OnClick(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (CustomersGrid.SelectedIndex >= 0)
+            {
+                CurrentCustomer = CustomersGrid.SelectedItem as Customer;
+                AddEditCustomer addWindow = new AddEditCustomer(customerDataAccess, CurrentCustomer);
+                addWindow.ShowDialog();
+
+            }
         }
 
         private void ProductsGrid_OnSelectionChanged(object sender, SelectionChangedEventArgs e)

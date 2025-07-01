@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "H:\\programing development\\1404\\vs\\ProductManagment-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\addeditcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\addeditemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\addeditcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\dataaccess\\customerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{C3B07356-23AD-4B4C-ADBF-BB7E0F6857F3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\addeditemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\addeditcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|solutionrelative:wpfproductmanagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8BC8864-74D6-417B-9C56-6A74C012B765}|WPFProductManagment\\WPFProductManagment.csproj|h:\\programing development\\1404\\vs\\productmanagment-2\\wpfproductmanagment\\addeditemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,36 +42,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml.cs",
-              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPFProductManagment\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:11:51.212Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeDataAccess.cs",
-              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\EmployeeDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccess\\EmployeeDataAccess.cs",
-              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\EmployeeDataAccess.cs",
-              "RelativeToolTip": "DataAccess\\EmployeeDataAccess.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEMAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddEditCustomer.xaml",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml",
+              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditCustomer.xaml",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml",
+              "RelativeToolTip": "WPFProductManagment\\AddEditCustomer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-01T14:54:47.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditCustomer.xaml.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditCustomer.xaml.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml.cs",
+              "RelativeToolTip": "WPFProductManagment\\AddEditCustomer.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:10:25.732Z",
+              "WhenOpened": "2025-07-01T15:01:04.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFProductManagment\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAHYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:11:51.212Z",
               "EditorCaption": ""
             },
             {
@@ -89,53 +101,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEditCustomer.xaml.cs",
-              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml.cs",
-              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditCustomer.xaml.cs",
-              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml.cs",
-              "RelativeToolTip": "WPFProductManagment\\AddEditCustomer.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDataAccess.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\EmployeeDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\EmployeeDataAccess.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\DataAccess\\EmployeeDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\EmployeeDataAccess.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:01:04.852Z",
+              "WhenOpened": "2025-07-01T15:10:25.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AddEditCustomer.xaml",
-              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml",
-              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditCustomer.xaml",
-              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditCustomer.xaml",
-              "RelativeToolTip": "WPFProductManagment\\AddEditCustomer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T14:54:47.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEditEmployee.xaml.cs",
-              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditEmployee.xaml.cs",
-              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditEmployee.xaml.cs",
-              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditEmployee.xaml.cs",
-              "RelativeToolTip": "WPFProductManagment\\AddEditEmployee.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:41:34.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPFProductManagment\\MainWindow.xaml",
               "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\MainWindow.xaml",
               "RelativeToolTip": "WPFProductManagment\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T14:40:30.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:40:30.876Z"
             },
             {
               "$type": "Document",
@@ -146,7 +132,25 @@
               "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditEmployee.xaml",
               "RelativeToolTip": "WPFProductManagment\\AddEditEmployee.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-01T14:17:30.416Z",
+              "WhenOpened": "2025-07-01T14:17:30.416Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEditEmployee.xaml.cs",
+              "DocumentMoniker": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "WPFProductManagment\\AddEditEmployee.xaml.cs",
+              "ToolTip": "H:\\programing development\\1404\\vs\\ProductManagment-2\\WPFProductManagment\\AddEditEmployee.xaml.cs",
+              "RelativeToolTip": "WPFProductManagment\\AddEditEmployee.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:41:34.264Z",
               "EditorCaption": ""
             }
           ]
