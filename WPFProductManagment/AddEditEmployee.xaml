@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProductManagment"
         mc:Ignorable="d"
-        Title="AddEditEmployee" FontSize="17" Height="650" Width="800">
+        Title="AddEditEmployee" FontSize="17" Height="700" Width="800">
     <Grid>
         <StackPanel Margin="20">
             <DockPanel Margin="10">

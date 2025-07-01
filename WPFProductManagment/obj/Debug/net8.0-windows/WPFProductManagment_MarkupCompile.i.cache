@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\App.xaml
-2-524815806
+3761748243
 
-7-1477504405
+81712539211
 199-664563939
-AddEditEmployee.xaml;MainWindow.xaml;
+AddEditCustomer.xaml;AddEditEmployee.xaml;MainWindow.xaml;
 
-True
+False
 
