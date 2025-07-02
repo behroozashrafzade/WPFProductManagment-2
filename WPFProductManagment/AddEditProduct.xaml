@@ -24,7 +24,7 @@
                 <Label Margin="10">Price  :</Label>
                 <TextBox HorizontalAlignment="Right" Width="500" Name="tbPrice"></TextBox>
             </DockPanel>
-
+            
 
             <DockPanel Margin="10" HorizontalAlignment="Right">
                 <Button Margin="10" Height="50" Width="120" Name="btnCancel" Click="BtnCancel_OnClick">Cancel</Button>

@@ -79,5 +79,11 @@ namespace WPFProductManagment
 
             this.Close();
         }
+
+        private void TbPhoneNumber_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+
+           
+        }
     }
 }

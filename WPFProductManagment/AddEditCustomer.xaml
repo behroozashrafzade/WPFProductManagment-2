@@ -18,12 +18,13 @@
          </DockPanel>         
          <DockPanel Margin="10">
              <Label Margin="10">Phone Number : </Label>
-         <TextBox HorizontalAlignment="Right" Width="500" Name="tbPhoneNumber"></TextBox>
+         <TextBox HorizontalAlignment="Right" Width="500" Name="tbPhoneNumber" TextChanged="TbPhoneNumber_OnTextChanged"></TextBox>
          </DockPanel>
          <DockPanel Margin="10">
              <Label Margin="10">Address  : </Label>
              <TextBox HorizontalAlignment="Right" Width="500" Height="150" Name="tbAddress"></TextBox>
          </DockPanel>
+         
          
         
          <DockPanel Margin="10" HorizontalAlignment="Right">
