@@ -50,40 +50,100 @@ namespace WPFProductManagment
 
         private void BtnOk_OnClick(object sender, RoutedEventArgs e)
         {
-            if (isEdit)
+            bool isValid = true;
+            isValid = CheckCustomerValidity();
+            if (isValid)
             {
-                Customer emp = new Customer()
+
+
+                if (isEdit)
                 {
-                    Id = editingCustomer.Id,
-                    FirstName = tbFirstName.Text,
-                    LastName = tbLastName.Text,
-                    Address = tbAddress.Text,
-                    PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text)
-                    
-                };
-                CustomerrDataAccess.EditCustomer(emp);
+                    Customer emp = new Customer()
+                    {
+                        Id = editingCustomer.Id,
+                        FirstName = tbFirstName.Text,
+                        LastName = tbLastName.Text,
+                        Address = tbAddress.Text,
+                        PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text)
+
+                    };
+                    CustomerrDataAccess.EditCustomer(emp);
+                }
+                else
+                {
+                    Customer emp = new Customer()
+                    {
+                        Id = CustomerrDataAccess.getNextId(),
+                        FirstName = tbFirstName.Text,
+                        LastName = tbLastName.Text,
+                        Address = tbAddress.Text,
+                        PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text),
+
+                    };
+                    CustomerrDataAccess.AddCustomer(emp);
+                }
+
+                this.Close();
             }
-            else
+        }
+
+        private bool CheckCustomerValidity()
+        {
+
+
+            bool isValid = true;
+
+            string FirstName = tbFirstName.Text.Trim().ToLower();
+            string LastName = tbLastName.Text.Trim().ToLower();
+            string Address = tbAddress.Text.Trim().ToLower();
+            string PhoneNumber = tbPhoneNumber.Text.Trim().ToLower();
+           
+
+            if (string.IsNullOrEmpty(FirstName))
             {
-                Customer emp = new Customer()
-                {
-                    Id = CustomerrDataAccess.getNextId(),
-                    FirstName = tbFirstName.Text,
-                    LastName = tbLastName.Text,
-                    Address = tbAddress.Text,
-                    PhoneNumber = Convert.ToUInt64(tbPhoneNumber.Text),
-                    
-                };
-                CustomerrDataAccess.AddCustomer(emp);
+                isValid = false;
+                lblError.Content = "First name is invalid !";
+            }
+            else if (string.IsNullOrEmpty(LastName))
+            {
+                isValid = false;
+                lblError.Content = "Last name is invalid !";
             }
 
-            this.Close();
+            else if (!UInt64.TryParse(PhoneNumber, out ulong p))
+            {
+                isValid = false;
+                lblError.Content = "Phone Number is invalid !";
+            }
+            else if (Address.Contains("iran") || string.IsNullOrEmpty(Address))
+            {
+                isValid = false;
+                lblError.Content = "Address is invalid !";
+            }
+            
+            else
+            {
+                lblError.Content = "";
+
+            }
+
+            return isValid;
         }
+
 
         private void TbPhoneNumber_OnTextChanged(object sender, TextChangedEventArgs e)
         {
+            string PhoneNumber = tbPhoneNumber.Text.Trim().ToLower();
+            if (!UInt64.TryParse(PhoneNumber, out ulong p))
+            {
 
-           
+                lblError.Content = "Phone Number is invalid !";
+            }
+            else
+            {
+                lblError.Content = "";
+            }
+
         }
     }
 }

@@ -109,7 +109,7 @@ namespace WPFProductManagment {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFProductManagment;V1.0.0.0;component/addeditproduct.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFProductManagment;component/addeditproduct.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddEditProduct.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
