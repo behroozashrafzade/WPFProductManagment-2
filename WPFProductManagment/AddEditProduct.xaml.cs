@@ -50,34 +50,97 @@ namespace WPFProductManagment
 
         private void BtnOk_OnClick(object sender, RoutedEventArgs e)
         {
-            if (isEdit)
+            bool isValid = true;
+            isValid = CheckProductValidity();
+            if (isValid)
             {
-                Product emp = new Product()
-                {
-                    Id = editingProduct.Id,
-                    Author = tbAuthor.Text,
-                    Name = tbName.Text,
-                    AvailableCount =int.Parse(tbAvailable.Text),
-                    Price = decimal.Parse(tbPrice.Text)
 
-                };
-                productsDataAccess.EditProduct(emp);
+                if (isEdit)
+                {
+                    Product emp = new Product()
+                    {
+                        Id = editingProduct.Id,
+                        Author = tbAuthor.Text,
+                        Name = tbName.Text,
+                        AvailableCount = int.Parse(tbAvailable.Text),
+                        Price = decimal.Parse(tbPrice.Text)
+
+                    };
+                    productsDataAccess.EditProduct(emp);
+                }
+                else
+                {
+                    Product emp = new Product()
+                    {
+                        Id = productsDataAccess.getNextId(),
+                        Name = tbName.Text,
+                        Author = tbAuthor.Text,
+                        AvailableCount = int.Parse(tbAvailable.Text),
+                        Price = Convert.ToDecimal(tbPrice.Text),
+
+                    };
+                    productsDataAccess.AddProduct(emp);
+                }
+
+                this.Close();
+            }
+
+        }
+        private bool CheckProductValidity()
+        {
+
+
+            bool isValid = true;
+
+            string Name = tbName.Text.Trim().ToLower();
+            string Author = tbAuthor.Text.Trim().ToLower();
+            string Available = tbAvailable.Text.Trim().ToLower();
+            string Price = tbPrice.Text.Trim().ToLower();
+            
+
+            if (string.IsNullOrEmpty(Name))
+            {
+                isValid = false;
+                lblError.Content = " name is invalid !";
+            }
+            else if (string.IsNullOrEmpty(Author))
+            {
+                isValid = false;
+                lblError.Content = "Author is invalid !";
+            }
+
+            else if (!UInt64.TryParse(Price, out ulong p))
+            {
+                isValid = false;
+                lblError.Content = "Price is invalid !";
+            }
+            else if (!UInt64.TryParse(Available, out ulong q)|| string.IsNullOrEmpty(Available))
+            {
+                isValid = false;
+                lblError.Content = "Available is invalid !";
+            }
+            
+            else
+            {
+                lblError.Content = "";
+
+            }
+
+            return isValid;
+        }
+
+        private void TbPrice_OnTextChanged(object sender, TextChangedEventArgs e)
+        {
+            string Pr = tbPrice.Text.Trim().ToLower();
+            if (!UInt64.TryParse(Pr, out ulong p))
+            {
+
+                lblError.Content = "Phone Number is invalid !";
             }
             else
             {
-                Product emp = new Product()
-                {
-                    Id = productsDataAccess.getNextId(),
-                    Name = tbName.Text,
-                    Author = tbAuthor.Text,
-                    AvailableCount =int.Parse(tbAvailable.Text),
-                    Price = Convert.ToDecimal(tbPrice.Text),
-
-                };
-                productsDataAccess.AddProduct(emp);
+                lblError.Content = "";
             }
-
-            this.Close();
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProductManagment"
         mc:Ignorable="d"
-        Title="AddEditProduct" Height="400" Width="700">
+        Title="AddEditProduct" Height="450" Width="700">
     <Grid>
         <StackPanel Margin="20">
             <DockPanel Margin="10">
@@ -22,9 +22,9 @@
             </DockPanel>
             <DockPanel Margin="10">
                 <Label Margin="10">Price  :</Label>
-                <TextBox HorizontalAlignment="Right" Width="500" Name="tbPrice"></TextBox>
+                <TextBox HorizontalAlignment="Right" Width="500" Name="tbPrice" TextChanged="TbPrice_OnTextChanged"></TextBox>
             </DockPanel>
-            
+            <Label Name="lblError" Foreground="Salmon" FontSize="18" Margin="2"/>
 
             <DockPanel Margin="10" HorizontalAlignment="Right">
                 <Button Margin="10" Height="50" Width="120" Name="btnCancel" Click="BtnCancel_OnClick">Cancel</Button>
