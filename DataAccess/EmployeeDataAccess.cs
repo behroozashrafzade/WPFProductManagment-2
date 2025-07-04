@@ -10,6 +10,8 @@ namespace DataAccess
 {
     public class EmployeeDataAccess
     {
+        private string path = @"./DemoDBEmployees.csv";
+
 
         public ObservableCollection<Employee> Employees { get; set; } = new ObservableCollection<Employee>();
 
@@ -20,33 +22,56 @@ namespace DataAccess
 
         private void ReadEmployee()
         {
-            Employee emp1 = new Employee()
+            using (var reader = new StreamReader(path))
             {
-                Id = 1,
-                FirstName = "bahrouz",
-                LastName = "ashrafzade",
-                PhoneNumber = 0913131441,
-                Address = "esf",
-                Department = Department.Production,
-                BaseSalary = 1500
-            };
-            Employee emp2 = new Employee()
+                Employees.Clear();
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    string[] values = line.Split(';');
+                    Enum.TryParse(values[5], out Department dept);
+                    Employee emp = new Employee()
+                    {
+                        Id = Convert.ToInt32(values[0]),
+                        FirstName = values[1],
+                        LastName = values[2],
+                        PhoneNumber = Convert.ToUInt64(values[3]),
+                        Address = values[4],
+                        Department = dept,
+                        BaseSalary = Convert.ToDecimal(values[6]),
+                    };
+                    Employees.Add(emp);
+                }
+            }
+        }
+
+        private void SaveEmployees()
+        {
+            using (var writer = new StreamWriter(path))
             {
-                Id = 2,
-                FirstName = "davoood",
-                LastName = "ashrafzade",
-                PhoneNumber = 09136454383,
-                Address = "esf",
-                Department = Department.Production,
-                BaseSalary = 2500
-            };
-            Employees.Add(emp1);
-            Employees.Add(emp2);
+                foreach (Employee emp in Employees)
+                {
+
+                    string Id = emp.Id.ToString();
+                    string FirstName = emp.FirstName;
+                    string LastName = emp.LastName;
+                    string PhoneNumber = emp.PhoneNumber.ToString();
+                    string Address = emp.Address;
+                    string Department = emp.Department.ToString();
+                    string BaseSalary = emp.BaseSalary.ToString();
+
+                    string line = string.Format("{0};{1};{2};{3};{4};{5};{6}"
+                        ,Id,FirstName,LastName,PhoneNumber,Address,Department,BaseSalary);
+                    writer.WriteLine(line);
+                }
+            }
         }
 
         public void AddEmployee(Employee emp)
         {
             Employees.Add(emp);
+            SaveEmployees();
         }
 
         public void RemoveEmployee(int id)
@@ -54,6 +79,7 @@ namespace DataAccess
             Employee temp = Employees.First(x => x.Id == id);
 
             Employees.Remove(temp);
+            SaveEmployees();
         }
 
         public void EditEmployee(Employee emp)
@@ -70,9 +96,5 @@ namespace DataAccess
             int index = Employees.Any() ? Employees.Max(x => x.Id) + 1 : 1;
             return index;
         }
-
-
-
-
     }
 }
