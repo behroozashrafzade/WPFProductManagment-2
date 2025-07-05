@@ -1,0 +1,15 @@
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DemoDBCustomer.csv
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DemoDBEmployees.csv
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DemoDBProduct.csv
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DataAccess.deps.json
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DataAccess.dll
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\bin\Release\net8.0\DataAccess.pdb
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.AssemblyInfoInputs.cache
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.AssemblyInfo.cs
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.sourcelink.json
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.dll
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\refint\DataAccess.dll
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\DataAccess.pdb
+H:\programing development\1404\vs\ProductManagment-2\DataAccess\obj\Release\net8.0\ref\DataAccess.dll
