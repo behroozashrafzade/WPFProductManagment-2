@@ -30,3 +30,4 @@ H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Deb
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\AddEditProduct.g.cs
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\obj\Debug\net8.0-windows\AddEditProduct.baml
 H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Debug\net8.0-windows\DemoDBEmployees.csv
+H:\programing development\1404\vs\ProductManagment-2\WPFProductManagment\bin\Debug\net8.0-windows\DemoDBProduct.csv

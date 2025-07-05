@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="DemoDBEmployees.csv" />
+    <None Remove="DemoDBProduct.csv" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="DemoDBEmployees.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoDBProduct.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
